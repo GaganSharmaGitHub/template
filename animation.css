@@ -1,0 +1,80 @@
+
+.card .content button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .card .content button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .card .content button:hover span {
+    padding-right: 25px;
+  }
+  
+  .card .content button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+ @keyframes sparkle  {
+   0%{
+     fill:#051937 ;
+   }
+   20%{
+    fill: #004d7a;
+  }
+  60%{
+    fill: #008793;
+  }
+  80%{
+    fill:#00bf72 ;
+  }
+  100%{
+    fill: #a8eb12;
+  }
+ }
+
+ #c1{
+   animation: sparkle 2s alternate infinite;
+   animation-delay: 2s;
+ }
+ #c2{
+  animation: sparkle 2s alternate infinite;
+}
+#c3{
+  animation: sparkle 2s alternate infinite;
+  animation-delay: 1s;
+}
+#c4{
+  animation: sparkle 2s alternate infinite;
+  animation-delay: 0.5s;
+}
+#c5{
+  animation: sparkle 4s alternate infinite;
+  animation-delay: 2s;
+}
+#c6{
+  animation: sparkle 2s alternate infinite;
+  animation-delay: 1s;
+}
+#c7{
+  animation: sparkle 2s alternate infinite;
+}
+#c8{
+  animation: sparkle 2s alternate infinite;
+}
+#Vector_10{
+  fill: -webkit-linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+/*svg starts*/
+#emoji1InSvg,#succesfullLoginMessInSvg,#icpasswordInSvg,#redPopUpInSvg,#idNotFoundInSvg,#alertExclInSvg,#questnmarkInSvg{
+  opacity: 0;
+}
