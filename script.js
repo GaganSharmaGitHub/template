@@ -39,5 +39,10 @@ function idNotExistSvg(){
   document.getElementById("redPopUpInSvg").style.opacity="0";
   document.getElementById("idNotFoundInSvg").style.opacity="0";}, timeForSvg)
   setTimeout(function(){phone.classList.remove("shake")}, timeForSvg)
-
+}
+function forgotPassword(){
+  document.getElementById("chaharr").style.transform="rotateY(-90deg) translateZ(200px)";
+}
+function backToLogin(){
+  document.getElementById("chaharr").style.transform="rotateY(0deg) translateZ(0px)";
 }
