@@ -48,6 +48,6 @@ display: flex;
     }
 
     .flip-box-inner {
-      transform: rotateY(90deg) translateZ(200px);;
+      transform: rotateY(0deg) translateZ(200px);;
     }
     
